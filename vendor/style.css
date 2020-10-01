@@ -1,0 +1,149 @@
+  body{
+       font-family: 'FrutigerRoman' !important;
+    }
+    @font-face{
+      font-family: 'Frutiger';
+      src:url('FrutigerLTArabic75Black.ttf'); 
+    }
+      @font-face{
+      font-family: 'FrutigerRoman';
+      src:url('FrutigerLTArabic55Roman.ttf'); 
+    }
+     .right-logo {
+     	float: right;
+     }    
+    body h1.mt-5 {
+    	color: #05184d;
+    	 font-family: 'Frutiger' !important;
+    }
+    body p.ajeer-recommend{
+    	color: #439f60;
+    	font-size: 25px;
+    }
+    .custom-container {
+    	max-width: 800px;
+    	margin: 0 auto;
+    }
+    .ageer-state {
+    	background: url('images/green-bx.png');
+    	background-size: cover;
+    	height: 80vh;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	padding: 30px;
+    }
+    .header-box .left-logo{
+          max-width: 150px;
+    }
+    .submit-important h4,.submit-important p{
+    		color: #05184d;
+    }
+    .submit-important p {
+    	font-size: 25px;
+    }
+  .ageer-state h4 {
+    color: #05184d;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+   .ageer-state p img {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40px;
+ }
+.ageer-state p span {
+      color: #05184d;
+    padding: 0px;
+    font-size: 28px;
+    position: relative;
+    bottom: 14px;
+}
+.first-ul li {
+   /* list-style: unset !important;
+    margin: 10px 0px;
+    font-size: 22px;
+    color: #fff;*/
+}
+ .first-ul {
+ 	padding: 0px 60px;
+ }
+.first-ul li span {
+    font-size: 27px;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+ .first-ul li img {
+ 	float: right;
+ }
+ .footer {
+ 	display: flex;
+ 	margin: 20px 0;
+    justify-content: flex-end;
+ }
+  .footer .socail-media  {
+  	margin-right: 10px;
+  }
+ .footer .socail-media span {
+ 	    color: #000e4f;
+    padding-left: 10px;
+ }
+ .submit-important h4{
+   font-size: 38px;
+   font-weight: bold;
+ }
+ .submit-important p,body p.ajeer-recommend {
+ 	font-size: 30px;
+ }
+
+ @media(max-width: 720px)
+ {
+ 	.header-box .left-logo {
+    max-width: 100px;
+}
+body h1.mt-5 {
+    
+    font-size: 27px;
+}
+.submit-important p, body p.ajeer-recommend {
+    font-size: 19px;
+}
+.submit-important h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.ageer-state {
+	padding: 0px;
+	height: 60vh;
+ }
+.ageer-state h4 {
+	font-size: 28px;
+}
+.ageer-state p span {
+    color: #05184d;
+    padding: 0px;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.first-ul li span {
+    font-size: 25px;
+}
+.footer {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+}
+
+
+@media(min-width: 992px) and (max-width: 1200px){
+ .ageer-state {
+ 
+    height: 44vh;
+     }
+}
